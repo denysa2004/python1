@@ -2,6 +2,7 @@
 def dreptunghi():
     import turtle
     t = turtle.Pen()
+    t.shape('turtle')
     t.color('red')
     t.forward(200)
     t.left(90)
@@ -29,6 +30,7 @@ def dreptunghi():
 def herz():
     import turtle
     t = turtle.Pen()
+    t.shape('turtle')
     t.color('red')
     t.left(140)
     t.forward(100)
@@ -46,6 +48,8 @@ def haus():
     import turtle
     t = turtle.Pen()
     c=t.clone()
+    t.shape('turtle')
+    c.shape('turtle')
     t.up()
     c.up()
     t.forward(50)
